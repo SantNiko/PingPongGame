@@ -13,13 +13,13 @@ using System.Windows.Forms;
 
 namespace Contactos
 {
-    public partial class Form1 : Form
+    public partial class PingPong : Form
     {
         public int speedLeft = 4;
         public int speedTop = 4;
         public int points = 0;
 
-        public Form1()
+        public PingPong()
         {
             InitializeComponent();
             timer1.Enabled = true;

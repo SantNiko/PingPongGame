@@ -1,6 +1,6 @@
 ﻿namespace Contactos
 {
-    partial class Form1
+    partial class PingPong
     {
         /// <summary>
         /// Required designer variable.
@@ -70,7 +70,7 @@
             // msMNewGame
             // 
             this.msMNewGame.Name = "msMNewGame";
-            this.msMNewGame.Size = new System.Drawing.Size(181, 26);
+            this.msMNewGame.Size = new System.Drawing.Size(157, 26);
             this.msMNewGame.Text = "&New Game";
             this.msMNewGame.Click += new System.EventHandler(this.msMNewGame_Click);
             // 
@@ -86,14 +86,14 @@
             // msLEnglish
             // 
             this.msLEnglish.Name = "msLEnglish";
-            this.msLEnglish.Size = new System.Drawing.Size(181, 26);
+            this.msLEnglish.Size = new System.Drawing.Size(135, 26);
             this.msLEnglish.Text = "&English";
             this.msLEnglish.Click += new System.EventHandler(this.msLEnglish_Click);
             // 
             // msLSpanish
             // 
             this.msLSpanish.Name = "msLSpanish";
-            this.msLSpanish.Size = new System.Drawing.Size(181, 26);
+            this.msLSpanish.Size = new System.Drawing.Size(135, 26);
             this.msLSpanish.Text = "&Spanish";
             this.msLSpanish.Click += new System.EventHandler(this.msLSpanish_Click);
             // 
@@ -158,7 +158,7 @@
             this.timer1.Interval = 1;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // Form1
+            // PingPong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -166,7 +166,7 @@
             this.Controls.Add(this.pPlayground);
             this.Controls.Add(this.ms);
             this.MainMenuStrip = this.ms;
-            this.Name = "Form1";
+            this.Name = "PingPong";
             this.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.Text = "Form1";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
